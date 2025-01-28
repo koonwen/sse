@@ -1,0 +1,5 @@
+(test
+ (name test_sse)
+ (libraries sse lwt lwt.unix)
+ (preprocess
+  (pps lwt_ppx)))

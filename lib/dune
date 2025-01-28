@@ -1,0 +1,5 @@
+(library
+ (name sse)
+ (libraries angstrom uutf uri curl curl.lwt)
+ (preprocess
+  (pps ppx_deriving.show lwt_ppx)))
